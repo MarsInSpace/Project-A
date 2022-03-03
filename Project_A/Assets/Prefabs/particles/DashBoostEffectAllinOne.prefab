@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4276127254468422669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4154425307583198579}
+  m_Layer: 0
+  m_Name: DashBoostEffectAllinOne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4154425307583198579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4276127254468422669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.656239, y: 3.5755205, z: -8.820197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8443926912632899295}
+  - {fileID: 7327349661329150393}
+  - {fileID: 2855930693148552857}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &146223639673416781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4154425307583198579}
+    m_Modifications:
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.656239
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.1955204
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.820197
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712627632318350039, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+      propertyPath: m_Name
+      value: DashBoostEffect3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+--- !u!4 &2855930693148552857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2712627632318350036, guid: da08478d958de7549acf0a9b62bbe769, type: 3}
+  m_PrefabInstance: {fileID: 146223639673416781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &310149478590156722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4154425307583198579}
+    m_Modifications:
+    - target: {fileID: 4532421049665825405, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_Name
+      value: DashBoostEffect2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.726238
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.1955204
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.820197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+--- !u!4 &8443926912632899295 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8170380216468490605, guid: 513d3cc1e1abf1e499869cd68f0f6185, type: 3}
+  m_PrefabInstance: {fileID: 310149478590156722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2690720540802050122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4154425307583198579}
+    m_Modifications:
+    - target: {fileID: 4681673930082105841, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: moveWithCustomTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105842, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_Name
+      value: DashBoostEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.656239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.4955206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.820197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+--- !u!4 &7327349661329150393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4681673930082105843, guid: 062a004efcf3a264094a8fad518d2851, type: 3}
+  m_PrefabInstance: {fileID: 2690720540802050122}
+  m_PrefabAsset: {fileID: 0}

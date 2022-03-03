@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DashMat
+  m_Shader: {fileID: -6465566751694194690, guid: 8e6401e0a357b9b47ab8ffb8f3dbcfe4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_99e3294b0b114b10ad4ccaae1e37d22d:
+        m_Texture: {fileID: 2800000, guid: a7106093e473fa4469daeb208c4077c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_7f8f262a86c24d13a1d4251226d5a767: 1
+    m_Colors:
+    - Color_92fae01c842b4dc68e4f2026cab8baf5: {r: 2.3245065, g: 2.3245065, b: 2.3245065, a: 1}
+    - Vector2_0f3d66e34beb48fa95320640de6fc3d0: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_4866a5f684fe4d93a08481e839a24e5c: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
